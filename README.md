@@ -33,14 +33,18 @@ tools/                  validators, headless UI tests and the OG image generator
 The site is written with **relative paths**, so it works at a project URL
 (`https://<user>.github.io/<repo>/`) or at a domain root.
 
+Live at **https://wlalsrb1109-ctrl.github.io/freelance-invoice-kit/** — GitHub Pages
+publishes the `gh-pages` branch (root). To ship a change, update `main`, then publish it:
+
 ```bash
-git init && git add -A && git commit -m "Invoice & Rate Kit"
-gh repo create <user>/freelance-invoice-kit --public --source=. --push
-gh api -X POST repos/<user>/freelance-invoice-kit/pages \
-  -f 'source[branch]=main' -f 'source[path]=/'
+git push origin main
+git push origin main:gh-pages
 ```
 
-`.nojekyll` is included so files are served as-is.
+`.nojekyll` is included so files are served as-is. Only the public files are in this
+repository: the paid Pro bundle (workbook, Word template, playbook, Notion pack) and the
+builder scripts that generate it are excluded on purpose — they are delivered through
+the checkout, never from this repo.
 
 ## Turning on monetization
 
