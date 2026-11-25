@@ -20,11 +20,10 @@ window.WEBTOOL_CONFIG = {
     sidebar: ''
   },
 
-  /* --- Lemon Squeezy ----------------------------------------------------
-     Paste the checkout URL of the Pro bundle here once the product is live,
-     e.g. 'https://yourstore.lemonsqueezy.com/checkout/buy/1a2b3c4d-...'
-     While empty, every "Get the Pro kit" button points to pro.html */
-  proCheckoutUrl: '',
+  /* --- Pro bundle checkout (Gumroad) ------------------------------------
+     Storefront/checkout URL of the Pro bundle. While empty, every
+     "Get the kit" button explains the launch state instead of linking out. */
+  proCheckoutUrl: 'https://wlalsrb.gumroad.com/l/pro-freelancer-kit',
   proPrice: '$14',
 
   /* --- Contact ----------------------------------------------------------
