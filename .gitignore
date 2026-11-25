@@ -1,0 +1,24 @@
+# Paid Pro deliverables — must never be committed to this public repository.
+# Only the free sample PDF below is published.
+pro-bundle/Pro-Freelancer-Kit-v1.0.zip
+pro-bundle/Freelance-Finance-Kit.xlsx
+pro-bundle/Invoice-Template.docx
+pro-bundle/Pricing-Playbook.pdf
+pro-bundle/Notion-Freelance-Kit.md
+pro-bundle/Quick-Start.md
+pro-bundle/SPEC.md
+pro-bundle/listing/
+*.xlsx
+*.docx
+*.zip
+lemonsqueezy_listing.md
+# Builder scripts that contain the paid material itself (playbook text, workbook, template).
+tools/build_playbook.py
+tools/build_workbook.py
+tools/build_docx.py
+tools/build_sample.py
+tools/generate_cover.py
+
+__pycache__/
+*.pyc
+.DS_Store

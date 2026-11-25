@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# No crawl restrictions: the tools are meant to be found.
+Sitemap: https://wlalsrb1109-ctrl.github.io/freelance-invoice-kit/sitemap.xml
