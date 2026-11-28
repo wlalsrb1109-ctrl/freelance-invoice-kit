@@ -159,7 +159,7 @@ for page in PAGES:
     tree = LH.parse(page).getroot()
     for s in tree.iter("script"):
         src = s.get("src")
-        if src and not os.path.exists(src.split("?")[0]):
+        if src and not src.startswith(("http://", "https://", "//")) and not os.path.exists(src.split("?")[0]):
             fail("%s: missing script %s" % (page, src))
     for l in tree.iter("link"):
         href = l.get("href") or ""

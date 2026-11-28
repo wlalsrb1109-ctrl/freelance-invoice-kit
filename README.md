@@ -54,7 +54,7 @@ Edit `assets/js/config.js` only — nothing else needs to change.
 | --- | --- |
 | `adsenseClient` | `'ca-pub-…'`. While empty, **no ad container is rendered** (no empty boxes on the page). |
 | `adSlots.top / bottom / sidebar` | Numeric ad-unit IDs. A slot with no ID is hidden. |
-| `proCheckoutUrl` | Lemon Squeezy checkout URL. While empty, every Pro button points to `pro.html` and the checkout buttons explain the launch state instead of hitting a dead link. |
+| `proCheckoutUrl` | Gumroad checkout URL — currently `https://wlalsrb.gumroad.com/l/pro-freelancer-kit`. Every Pro button opens it in a new tab; when it is empty, the buttons point to `pro.html` and explain the launch state instead of hitting a dead link. |
 | `proPrice` | Price shown in the header, cards and sales page. |
 | `contactUrl`, `repoUrl` | Public contact route (issue tracker — no personal email is published). |
 
